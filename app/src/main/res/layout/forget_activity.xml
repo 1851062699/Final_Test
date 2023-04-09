@@ -45,5 +45,5 @@
         android:text="Button"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="375dp" />
-//sdsadasd
+
 </androidx.constraintlayout.widget.ConstraintLayout>
