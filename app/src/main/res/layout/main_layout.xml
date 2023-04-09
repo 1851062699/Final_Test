@@ -9,8 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ôn tập"
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="160dp" />
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="163dp" />
 
     <TextView
         android:id="@+id/textView4"

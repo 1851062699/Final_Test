@@ -1,79 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtTieuDe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
         android:text="Thi bằng lái xe"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="40dp" />
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="120dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="106dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="120dp"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="169dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="180dp"
         android:text="Tên đăng nhập"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="117dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="244dp"
         android:text="Mật khẩu"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="182dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <CheckedTextView
         android:id="@+id/checkedTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="716dp"
         android:text="Quên mật khẩu ?"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="253dp" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="349dp"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <CheckedTextView
         android:id="@+id/checkedTextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="716dp"
         android:text="Chưa có tài khoản ?"
-        tools:layout_editor_absoluteX="240dp"
-        tools:layout_editor_absoluteY="253dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="616dp"
         android:text="Đăng nhập"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="299dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
